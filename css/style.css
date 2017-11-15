@@ -1,0 +1,226 @@
+
+body{
+  background-image: url(../assets/img/back-videos.png);
+  background-size: cover;
+  background-position: top;
+  height: auto;
+  overflow-x: hidden;
+}
+header{
+  background-image: url(../assets/img/back-header.png);
+  background-size: cover;
+  height: auto;
+}
+.menu{
+  padding: 15% 3% 7%;
+}
+.menu img:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+}
+.color-white{
+  color: white;
+}
+article p{
+  font-size: 1.3em;
+  text-align: justify;
+}
+article .col-md-4 img{
+  width: 100%;
+}
+
+@media (max-width: 3000px) {
+  iframe{
+    width: 960px;
+    height: 515px;
+  }
+  footer img{
+    width: 20%;
+  }
+  header{
+    background-position: top;
+  }
+}
+@media (max-width: 1800px) {
+  iframe{
+    width: 860px;
+    height: 515px;
+  }
+}
+@media (max-width: 1650px) {
+  iframe{
+    width: 760px;
+    height: 515px;
+  }
+  .menu{
+    height: 76vh;
+  }
+}
+@media (max-width: 1450px) {
+  iframe{
+    width: 660px;
+    height: 515px;
+  }
+  .menu{
+    height: 65vh;
+  }
+}
+@media (max-width: 1300px) {
+  iframe{
+    width: 560px;
+    height: 515px;
+  }
+  article p{
+    font-size: 1.15em;
+  }
+  footer img{
+    width: 25%;
+  }
+  .menu{
+    height: auto;
+  }
+}
+@media (max-width: 1100px) {
+  iframe{
+    width: 500px;
+    height: 515px;
+  }
+}
+@media (max-width: 975px) {
+  iframe{
+    width: 460px;
+    height: 315px;
+  }
+  article p{
+    font-size: 1em;
+  }
+  .p-5{
+    padding: .5em!important;
+  }
+  footer img{
+    width: 28%;
+  }
+  .menu{
+    height: 48vh;
+  }
+}
+@media (max-width: 890px) {
+  article .col-md-7 img{
+    width: 55%;
+  }
+}
+@media (max-width: 815px) {
+  iframe{
+    width: 400px;
+    height: 415px;
+  }
+  footer img{
+    width: 30%;
+  }
+  header{
+    background-position: center;
+  }
+  .menu{
+    padding: 14% 3% 7%;
+  }
+  .menu img{
+    width: 85%;
+  }
+  #logo-caradura, #logo-tecate{
+    width: 60%!important;
+  }
+}
+@media (max-width: 767px){
+  iframe{
+    width: 600px;
+    height: 400px;
+  }
+  article div{
+    text-align: center;
+  }
+  .p-5{
+    padding: 2em!important;
+  }
+  article .col-md-4 img{
+    width: 60%;
+  }
+  article p{
+    font-size: 1.3em;
+  }
+  footer img{
+    width: 35%;
+  }
+  body{
+    background-image: url(../assets/img/back-videos-mobile.png);
+  }
+  header{
+    background-image: url(../assets/img/back-header-mobile.png);
+  }
+  .menu{
+    padding: 26% 3% 7%;
+    height: auto;
+  }
+  .menu img{
+    width: 95%;
+  }
+  #logo-caradura, #logo-tecate{
+    width: 70%!important;
+  }
+}
+@media (max-width: 660px){
+  iframe{
+    width: 500px;
+    height: 350px;
+  }
+  footer img{
+    width: 70%;
+  }
+  footer img{
+    width: 40%;
+  }
+  .menu{
+    padding: 23% 3% 7%;
+  }
+}
+@media (max-width: 560px){
+  iframe{
+    width: 400px;
+    height: 300px;
+  }
+  .menu img{
+    width: 95%;
+  }
+  #logo-caradura, #logo-tecate{
+    width: 95%!important;
+  }
+}
+@media (max-width: 460px){
+  iframe{
+    width: 350px;
+    height: 250px;
+  }
+  footer img{
+    width: 55%;
+  }
+  .menu{
+    padding: 22% 3% 7%;
+  }
+  .menu img{
+    width: 95%;
+  }
+  #logo-caradura, #logo-tecate{
+    width: 95%!important;
+  }
+}
+@media (max-width: 400px){
+  iframe{
+    width: 250px;
+    height: 150px;
+  }
+  article p{
+    font-size: 1.05em;
+  }
+  footer img{
+    width: 50%;
+  }
+}
